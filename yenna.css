@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.header{
+    background: navajowhite;
+    height: 10vh;
+    width: 1000vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.logo img{
+    height: 10vh;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    margin-left: 30px;
+}
+.menu a{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.dangki{
+    padding: 13px 15px;
+    position: fixed;
+    right: 30px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.dangki:hover, .dangnhap:hover{
+    background: black;
+}
+.dangki a, .dangnhap a{
+    text-decoration: none;
+}
+.dangki a:hover, .dangnhap a:hover{
+    color: white;
+}
+.dangnhap{
+    padding: 13px 15px;
+    position: fixed;
+    right: 160px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.banners{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    float: left;
+    width: 550px;
+    height: 520px;
+    margin: 5px 30px;
+}
+.banner img{
+    border-radius: 10%;
+    padding-top: 80px;
+    width: 550px;
+    height: 520px;
+}
+.menu1{
+    background-color: navajowhite;
+}
+.menu1 h2{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.posts{
+    float:left; 
+}
+.post{
+    float:left;
+    background: navajowhite;
+    width: 270px;
+    height: 350px;
+    margin: 25px 22.5px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.post img{
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+}
+.post p{
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.post:hover{
+    transform: scale(1.1);
+}
+.post1{
+    float:left;
+    width: 270px;
+    height: 350px;
+    margin: 25px 22.5px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.post1 img{
+    border-radius: 100%;
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+.post1 p{
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.post1:hover{
+    transform: scale(1.1);
+}
+.footer{
+    margin-top: 400px;
+    background-color: navajowhite;
+    height: 10vh;
+    font-size: 20px ;
+    text-align: center;
+    padding-top: 20px;
+}
